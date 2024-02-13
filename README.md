@@ -21,6 +21,10 @@ Any files encrypted with 'secret_key.bin' will be **IRRECOVERABLE** if the 'secr
 
 This tool is for educational purposes only. Depending on your requirements, other public encryption tools might be better to secure your files.
 
+# Limitations
+
+Fernet is ideal for encrypting data that easily fits in memory. As a design feature it does not expose unauthenticated bytes. This means that the complete message contents must be available in memory, making Fernet generally unsuitable for very large files at this time. Taken from (https://cryptography.io/en/latest/fernet/)
+
 # Dependencies
 
 - Python 3+
