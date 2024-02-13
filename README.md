@@ -13,6 +13,14 @@ PyCr's simple command-line functionality provides an easy and reliable solution 
 
 Write 'python main.py' in your terminal and follow the dialogue to use the program.
 
+# Disclaimer
+
+The original file will be **OVERWRITTEN** with the encrypted version.
+
+Any files encrypted with 'secret_key.bin' will be **IRRECOVERABLE** if the 'secret_key.bin' file is lost or deleted! Make sure to have multiple backups.
+
+This tool is for educational purposes only. Depending on your requirements, other public encryption tools might be better to secure your files.
+
 # Dependencies
 
 - Python 3+
